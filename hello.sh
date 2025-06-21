@@ -1,7 +1,8 @@
 #! /bin/bash
 
 len=$(wc -l < /home/user/git/bash_scripts/hello.txt)
+dat=$(date)
 
-echo "Hello World! " $len >> /home/user/git/bash_scripts/hello.txt
+echo $dat " Hello World! " $len >> /home/user/git/bash_scripts/hello.txt
 
 
