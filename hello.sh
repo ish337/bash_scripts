@@ -1,3 +1,7 @@
 #! /bin/bash
 
-echo "Hello World!"
+len=$(wc -l < /home/user/git/bash_scripts/hello.txt)
+
+echo "Hello World! " $len >> /home/user/git/bash_scripts/hello.txt
+
+
